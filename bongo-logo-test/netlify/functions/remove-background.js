@@ -1,0 +1,1 @@
+exports.handler = async (event, context) => { return { statusCode: 200, body: JSON.stringify({ success: true, imageUrl: 'https://example.com/logo_no_bg.png' }) }; };
