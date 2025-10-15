@@ -1,5 +1,6 @@
 [build]
   functions = "netlify/functions"
+  publish = "."   # because index.html is in the root
 
 [functions]
   node_bundler = "esbuild"
